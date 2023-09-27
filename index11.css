@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+background-color: rgb(159, 223, 248);
+}
+
+/* nav_bar start */
+.nav{
+   display: flex;
+ width: 100%;
+   list-style-type: none;
+   justify-content: center;
+   position: fixed;
+   top: 0;
+background-color: rgb(159, 223, 248);
+box-shadow: 5px 5px 8px gray;
+}
+.nav li{
+	margin:15px;
+	padding: 10px;
+}
+.nav li a:hover{
+   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+   color: rgb(156, 158, 56);
+}
+.nav li a{
+	text-decoration: none;
+	color: rgb(41, 77, 99);
+	padding: 6px;
+}
+/* .nav li a:hover{
+    color: rgb(168, 143, 32);   
+} */
+/* nav_bar end*/
+
+.all_section{
+	width: 75%;
+	margin: 50px auto;
+
+}
+.section_2{
+	box-shadow: 5px 5px 8px gray;
+}
+.section_2:hover{
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+   background-color: #b9d9eb;
+}
+
+/* home start */
+.section_flex{
+    display: flex;
+	
+}
+.name span{
+	color: rgb(45, 136, 189);
+}
+.name article{
+	color: rgb(40, 76, 153);
+}
+.home_half{
+       width: 50%;
+	padding-left:10px;
+}
+.icon a{
+	color: black;
+	font-size: larger;
+	text-decoration: none;
+}
+.icon a:hover{
+	color: rgb(23, 53, 223);
+}
+.home_half{
+text-align: center;
+}
+/* home end */
+
+
+
+/* about_me start */
+
+.about_half{
+	width: 50%;
+	padding: 10px;
+}
+.about_me{
+	margin-top:100px ;
+box-shadow: 5px 5px 8px gray;
+}
+.about_me:hover{
+	background-color: #b9d9eb;
+	box-shadow:0 5px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.about_title{
+	margin-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.h3{
+	text-align: center;
+}
+.skill{
+	padding-top: 8px;
+	padding-left: 5px;
+	padding-right: 10px;
+}
+.progressbar{
+border-radius: 10px;
+	background-color: rgb(182, 174, 174);
+}
+
+
+.progress_html{
+	background-color: #0c5acf;
+	color: white;
+	width: 85%;
+	border-radius: 10px;
+	text-align: center;
+	font-size: small;
+}
+
+.progress_css{
+	background-color: #668ac0;
+	color: white;
+	width: 60%;
+	border-radius: 10px;
+	text-align: center;
+	font-size: small;
+}
+
+.progress_bootstrap{
+	background-color: #1b9177;
+	color: white;
+	width: 70%;
+	border-radius: 10px;
+	text-align: center;
+	font-size: small;
+}
+
+.progress_java{
+	background-color: #562f9e;
+	color: white;
+	width: 75%;
+	border-radius: 10px;
+	text-align: center;
+	font-size: small;
+}
+
+.progress_c{
+	background-color: #a47dd1;
+	color: white;
+	width: 50%;
+	border-radius: 10px;
+	text-align: center;
+	font-size: small;
+}
+
+.details p{
+	font-size: small;
+	padding-left: 10px;
+}
+.details h5{
+	padding-left: 10px;
+}
+
+
+/* about_me end */
+
+
+/* educational_qualification start */
+.edu_title{
+	text-align: center;
+	margin: 20px
+}
+.education{
+margin-top: 100px;
+box-shadow: 5px 5px 8px gray;
+padding: 4px;
+
+}
+.education:hover{
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	background-color: #b9d9eb;
+}
+
+.section_edu{
+   display: flex;
+   justify-content: center;
+
+}
+.education_picture{
+	width: 33%;
+	margin:30px;
+	padding: 8px;
+
+}
+.education_picture:hover{
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(10, 10, 10, 0.1) inset;
+background-color: #7fbedb;
+
+}
+
+.education_picture img{
+	height: 200px;
+	width: 250px;}
+
+.span{
+	font-size: small;
+	font-weight:600;
+
+}
+
+
+
+/* educational_qualification start */
+
+
+/* projet start */
+
+
+.project{
+	margin-top: 90px;
+box-shadow: 5px 5px 8px gray;
+}
+.project:hover{
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(10, 10, 10, 0.1) inset;
+	background-color: #b9d9eb;
+}
+.project_h1{
+text-align: center;
+margin: 20px;
+padding-top: 20px;
+
+}
+.project_flex{
+display: flex;
+padding: 20px;
+}
+
+.project_img{
+	width: 31%;
+	margin: 10px;
+
+}
+.project_img:hover{
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(10, 10, 10, 0.1) inset;
+
+}
+.project_img a:hover{
+color: rgb(47, 39, 160);
+}
+.project_img a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+
+
+/* project end */
+
+
+
+
+
+
+
+/*  contact start */
+
+
+.contact{
+	background-color: #422388;
+	color: white;
+}
+.contact_full{
+margin-top: 150px ;
+display: flex;
+
+}
+.contact_half{
+margin-top:50px;
+padding: 2px;
+border: 2px solid;
+}
+
+/* contact end */
