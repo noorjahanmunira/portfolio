@@ -273,18 +273,36 @@ color: rgb(47, 39, 160);
 
 
 .contact{
-	background-color: #422388;
+	background-color: rgb(32, 40, 44);
 	color: white;
 }
 .contact_full{
-margin-top: 150px ;
+margin-top: 25px ;
 display: flex;
+border: 2px solid;
 
 }
 .contact_half{
-margin-top:50px;
+/* margin-top:20px; */
 padding: 2px;
 border: 2px solid;
+margin:20px;
+padding: 20px;
+width: 50%;
+}
+.last_contact{
+	background-color: black;
+	padding: 50px;
+	text-align: center;
+	color: rgb(192, 186, 186);
+}
+.last_contact i{
+	color: white;
+}
+.icon_2{
+	color: white;
+		font-size: larger;
+		text-decoration: none;
 }
 
 /* contact end */
